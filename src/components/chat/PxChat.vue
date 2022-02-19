@@ -68,7 +68,7 @@ export default {
         messages: []
       },
       name_channel: '',
-      socket: io("http://192.168.0.14:4000"),
+      socket: io("http://localhost:4000"),
       showAddUser: false,
       newUserEmail: ''
     }
